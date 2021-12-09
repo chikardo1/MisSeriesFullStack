@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+
+
+#owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .letra2{
+    font-family: 'Pacifico', cursive;
+  }
+
+  .d-block  {
+      border-radius: 100%;
+  }
+  
+.tituloprincipal{
+    font-size: 3.1em;
+    text-align: center;
+    padding: 130px;
+    color: gold;
+    font-family: 'Pacifico', cursive;
+    
+}
+.titulosecundario{
+    font-size: 2.7em;
+    color: white;
+}
+.titulotercero{
+    color:white;
+    font-size:1em
+}
+
+/* Slider de imagenes de anime */
+.slider2 {
+  width: 55%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 5px solid lightblue;
+}
+
+.slider2 ul {
+  display: flex;
+  padding: 0;
+  width: 500%;
+  
+  animation: cambio 20s infinite alternate linear;
+}
+
+.slider2 li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider2 img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+  
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
